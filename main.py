@@ -21,7 +21,7 @@ app.add_middleware(
 )
 
 # ================= DATABASE SETUP =================
-DATABASE_URL = "postgresql://postgres:marcellganteng@localhost:5432/heartbeat_db"
+DATABASE_URL = "postgresql://hearbeat_user:marcellganteng@localhost:5432/heartbeat_db"
 
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(bind=engine)
